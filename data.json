@@ -1,0 +1,198 @@
+{
+  "professors": [
+    {
+      "name": "Jesse Apac",
+      "expertise": ["Programming", "Computer knowledge"],
+      "availability": {
+        "mon": "Afternoon",
+        "tues": "Morning",
+        "wed": "Not available",
+        "thurs": "Not available",
+        "fri": "Afternoon",
+        "sat": "Morning"
+      }
+    },
+    {
+      "name": "Ayo Repaso",
+      "expertise": ["Computer knowledge", "Mathematics", "General education"],
+      "availability": {
+        "mon": "Afternoon",
+        "tues": "Morning",
+        "wed": "Not available",
+        "thurs": "Not available",
+        "fri": "Afternoon",
+        "sat": "Morning"
+      }
+    },
+    {
+      "name": "Leenard Zarate",
+      "expertise": ["Programming", "Design knowledge"],
+      "availability": {
+        "mon": "Afternoon",
+        "tues": "Morning",
+        "wed": "Not available",
+        "thurs": "Not available",
+        "fri": "Afternoon",
+        "sat": "Morning"
+      }
+    },
+    {
+      "name": "John Doe",
+      "expertise": ["Photography", "General education"],
+      "availability": {
+        "mon": "Afternoon",
+        "tues": "Morning",
+        "wed": "Not available",
+        "thurs": "Not available",
+        "fri": "Afternoon",
+        "sat": "Morning"
+      }
+    },
+    {
+      "name": "LeBRON James",
+      "expertise": ["Physical education knowledge"],
+      "availability": {
+        "mon": "Afternoon",
+        "tues": "Morning",
+        "wed": "Not available",
+        "thurs": "Not available",
+        "fri": "Afternoon",
+        "sat": "Morning"
+      }
+    }
+  ],
+  "rooms": [
+    {
+      "room_no": "102",
+      "laboratory": true,
+      "gym": false,
+      "availability": {
+        "mon": "Afternoon",
+        "tues": "Morning",
+        "wed": "Whole day",
+        "thurs": "Afternoon",
+        "fri": "Afternoon",
+        "sat": "Morning"
+      }
+    },
+    {
+      "room_no": "103",
+      "laboratory": true,
+      "gym": false,
+      "availability": {
+        "mon": "Afternoon",
+        "tues": "Whole day",
+        "wed": "Whole day",
+        "thurs": "Whole day",
+        "fri": "Afternoon",
+        "sat": "Morning"
+      }
+    },
+    {
+      "room_no": "120",
+      "laboratory": false,
+      "gym": false,
+      "availability": {
+        "mon": "Afternoon",
+        "tues": "Whole day",
+        "wed": "Whole day",
+        "thurs": "Whole day",
+        "fri": "Afternoon",
+        "sat": "Morning"
+      }
+    },
+    {
+      "room_no": "123",
+      "laboratory": false,
+      "gym": false,
+      "availability": {
+        "mon": "Afternoon",
+        "tues": "Whole day",
+        "wed": "Whole day",
+        "thurs": "Whole day",
+        "fri": "Afternoon",
+        "sat": "Morning"
+      }
+    },
+    {
+      "room_no": "125",
+      "laboratory": false,
+      "gym": false,
+      "availability": {
+        "mon": "Afternoon",
+        "tues": "Whole day",
+        "wed": "Whole day",
+        "thurs": "Whole day",
+        "fri": "Afternoon",
+        "sat": "Morning"
+      }
+    },
+    {
+      "room_no": "DVA Gym",
+      "laboratory": false,
+      "gym": true,
+      "availability": {
+        "mon": "Whole day",
+        "tues": "Whole day",
+        "wed": "Whole day",
+        "thurs": "Whole day",
+        "fri": "Whole day",
+        "sat": "Morning"
+      }
+    }
+  ],
+  "curriculums": {
+    "CS_firstYear": {
+      "firstSem": [
+        {
+          "subject": "Understanding the self",
+          "required_lab": false,
+          "required_gym": false,
+          "expertise_required": ["General education"]
+        },
+        {
+          "subject": "Mathematiics in the Modern World",
+          "required_lab": false,
+          "required_gym": false,
+          "expertise_required": ["Mathematics"]
+        },
+        {
+          "subject": "Introduction to Computing with Productivity Tools",
+          "required_lab": false,
+          "required_gym": false,
+          "expertise_required": ["Computer knowledge"]
+        },
+        {
+          "subject": "Fundamentals of Programming 1",
+          "required_lab": true,
+          "required_gym": false,
+          "expertise_required": ["Programming"]
+        },
+        {
+          "subject": "Visual Design Graphics",
+          "required_lab": true,
+          "required_gym": false,
+          "expertise_required": ["Design knowledge"]
+        },
+        {
+          "subject": "Basic Photograph",
+          "required_lab": false,
+          "required_gym": false,
+          "expertise_required": ["Photography"]
+        },
+        {
+          "subject": "Physical Education",
+          "required_lab": false,
+          "required_gym": true,
+          "expertise_required": ["Physical education knowledge"]
+        },
+        {
+          "subject": "National Service Training Program 1",
+          "required_lab": false,
+          "required_gym": false,
+          "expertise_required": ["General education"]
+        }
+      ]
+    }
+  }
+}
